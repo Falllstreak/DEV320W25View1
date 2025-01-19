@@ -1,4 +1,4 @@
-.some-page-wrapper {
+/* .some-page-wrapper {
     display: flex;
     margin: 15px;
     background-color: red;
@@ -31,4 +31,76 @@
   .green-column {
     background-color: green;
     height: 100px;
-  }
+  } */
+
+  header {
+    height: 100px;
+    width: 100%;
+    background: rgb(19, 18, 18);
+    margin-bottom: 1%;
+}
+#headerText {
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 4px;
+    color: #f44336;
+    text-shadow: 2px 2px 10px black;
+    font-size: 25px;
+}
+body {
+    height: 200px;
+    color: #064c45;
+    background: rgb(19, 18, 18);
+    background: linear-gradient( 90deg, rgba(19, 18, 18, 1) 0%, rgba(10, 43, 45, 1) 50%, rgba(19, 18, 18, 1) 100%);
+}
+.sensorbody {
+  font-size:larger;
+  margin: 3%
+}
+#nav {
+  font-size: 30px;
+  text-align: center;
+}
+.internallink {
+  font-size: 16px;
+  padding: 2%;
+  text-align: left;
+}
+button {
+    font-size: 16px;
+    background-color: #f44336;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 4px 28px;
+    margin-top: 2%;
+}
+button:hover {
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.24), 0 10px 20px 0 rgba(0, 0, 0, 0.24);
+}
+input {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+label, select {
+    margin: 6px;
+    font-size: 16px;
+    background-color: #064c45;
+    color: black;
+    border: 2px solid black;
+    padding: 1px;
+    vertical-align: middle;
+}
+
+footer {
+    height: 55px;
+    width: 100%;
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 15px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    margin-top: 1%;
+}
